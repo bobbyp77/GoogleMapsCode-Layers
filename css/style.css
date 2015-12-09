@@ -1,0 +1,56 @@
+html{ 
+	height: 100%
+}
+body{
+	height: 100%; 
+	background-color:#CCC 
+}
+.crear-mapa{
+	height: 250px;
+	padding: 20px; 
+	border: 2px solid #CCC;
+	margin-top: 20px;  
+	margin-bottom: 20px; 
+	background-color:#FFF;
+}
+.datos-mapa{
+	height: 250px;
+	padding: 20px; 
+	border: 2px solid #CCC;
+	margin-top: 20px;  
+	margin-bottom: 20px; 
+	background-color:#FFF;
+	overflow-y: auto;
+}
+.control-palette{
+	height: 250px;
+	padding: 20px; 
+	border: 2px solid #CCC;
+	margin-top: 20px;  
+	margin-bottom: 20px; 
+	background-color:#FFF;
+}
+#map-outer{
+	height: 540px; 
+	padding: 20px; 
+	border: 2px solid #CCC; 
+	margin-bottom: 20px; 
+	background-color:#FFF
+}
+#map_canvas {
+	margin: auto;
+	height: 500px 
+}
+@media all and (max-width: 991px) {
+	#map-outer{ 
+		height: 650px
+	}
+}
+.color-button {
+	width: 14px;
+	height: 14px;
+	font-size: 0;
+	margin: 2px;
+	float: left;
+	cursor: pointer;
+}
